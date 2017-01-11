@@ -1,7 +1,7 @@
 //import {computedFrom} from 'aurelia-framework';
 
 export class Welcome {
-  heading: string = 'Welcome to the Aurelia Navigation App';
+  heading: string = 'Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.';
   firstName: string = 'John';
   lastName: string = 'Doe';
   previousValue: string = this.fullName;
