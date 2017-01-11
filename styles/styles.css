@@ -1,5 +1,88 @@
 body {
   margin: 0;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+html{
+  height: 100%;
+}
+
+.page-host
+{
+  height: 100%
+}
+
+footer {
+  display: block;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+router-view{
+  height: 100%;
+  display: block;
+}
+
+
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .container {
+        width: 1170px;
+    }
+}
+
+header.hero{
+  color: #cdbfe3;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  background-color: #6f5499;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#563d7c),to(#6f5499));
+  background-image: -webkit-linear-gradient(top,#563d7c 0,#6f5499 100%);
+  background-image: -o-linear-gradient(top,#563d7c 0,#6f5499 100%);
+  background-image: linear-gradient(to bottom,#563d7c 0,#6f5499 100%);
+  padding: 0px;
+  height: 571px;
+}
+
+header.hero span.title{
+  width: 144px;
+  height: 144px;
+  font-size: 108px;
+  line-height: 140px;
+      border: 1px solid #cdbfe3;
+      display: block;
+      margin: 0 auto 30px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  cursor: default;
+  border-radius: 15%;
+}
+
+header.hero .banner{
+  height: 100%;
+  padding-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header.hero .banner h2{
+  width: 912px;
+      margin: 0 auto 30px;
+      line-height: 1.4;
+      color: #fff;
+}
+
+header.hero .btn{
+  color: #fff;
+  border-color: #fff;
+  padding: 15px 30px;
+font-size: 20px
 }
 
 .splash {
@@ -27,10 +110,10 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  top: 50px;
+  top: 0;
   bottom: 0;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 @media print {
@@ -43,10 +126,6 @@ body {
     overflow-y: inherit;
     overflow-x: inherit;
   }
-}
-
-section {
-  margin: 0 20px;
 }
 
 .navbar-nav li.loader {
