@@ -1,12 +1,83 @@
 <template>
   <section class="au-animate">
     <header class="hero">
-      <div class="banner">
-        <span class="title">B</span>
-        <h2>${heading}</h2>
-        <a href="getting-started#download" class="btn btn-outline-inverse btn-lg">Download Bootstrap</a>
-
+      <div class="banner container">
+        <div class="col-md-7">
+          <h2>${heading}</h2>
+          <a href="getting-started#download" class="btn btn-outline-inverse btn-lg">Download Bootstrap</a>
+        </div>
+        <div class="col-md-5">
+          <img src="./iphone.png" class="img-responsive">
+        </div>
       </div>
     </header>
+    <section class="text-center call-to-action">
+      <h3>Discover What All the Buzz Is About!</h3>
+      <p>Our app is available on any mobile device! Download now to get started!</p>
+    </section>
+    <section class="text-center container" id="features">
+      <div class="row section-header">
+        <h3>Unlimited Features, Unlimited Fun</h3>
+        <p>Check out what you can do with this app theme!</p>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./iphone.png" class="img-responsive">
+        </div>
+        <div class="col-md-8">
+          <div class="container-fluid feature-list">
+            <div class="row">
+              <div class="col-md-6">
+                <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>
+                <h4>Device Mockups</h4>
+                <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+              </div>
+              <div class="col-md-6">
+                <i class="fa fa-camera fa-5x" aria-hidden="true"></i>
+                <h4>Flexible Use</h4>
+                <p>Put an image, video, animation, or anything else in the screen!</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <i class="fa fa-gift fa-5x" aria-hidden="true"></i>
+                <h4>Free to Use</h4>
+                <p>As always, this theme is free to download and use for any purpose!</p>
+              </div>
+              <div class="col-md-6">
+                <i class="fa fa-lock fa-5x" aria-hidden="true"></i>
+                <h4>Open Source</h4>
+                <p>Since this theme is MIT licensed, you can use it commercially!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="" id="cta2">
+      <div class="black-background">
+        <div class="container">
+          <h2>Stop waiting. Start building.</h2>
+          <a href="getting-started#download" class="btn btn-outline-inverse btn-lg">Download Bootstrap</a>
+        </div>
+      </div>
+    </section>
+    <section class="text-center" id="contact">
+      <div class="container">
+        <h3>We <i class="fa fa-heart" aria-hidden="true"></i> New Friends!</h3>
+        <i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i>
+        <i class="fa fa-facebook-square fa-5x" aria-hidden="true"></i>
+        <i class="fa fa-google-plus-square fa-5x" aria-hidden="true"></i>
+      </div>
+    </section>
+    <footer>
+      <div class="container text-center">
+        <p>2016 Start Bootstrap. All Rights Reserved.</p>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Faq</a>
+      </div>
+    </footer>
   </section>
 </template>

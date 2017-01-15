@@ -1,7 +1,7 @@
 //import {computedFrom} from 'aurelia-framework';
 
 export class Welcome {
-  heading: string = 'Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.';
+  heading: string = 'New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!';
   firstName: string = 'John';
   lastName: string = 'Doe';
   previousValue: string = this.fullName;
